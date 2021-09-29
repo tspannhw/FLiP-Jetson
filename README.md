@@ -19,6 +19,8 @@ bin/pulsar-admin sinks get --tenant public --namespace default --name solr-sink-
 bin/pulsar-admin sinks status --tenant public --namespace default --name solr-sink-jetson
 
 
+go get -u "github.com/apache/pulsar-client-go/pulsar"
+go mod tidy
 
 ```
 
@@ -28,3 +30,4 @@ bin/pulsar-admin sinks status --tenant public --namespace default --name solr-si
 * https://github.com/tspannhw/minifi-xaviernx/blob/master/demo.py
 * https://github.com/tspannhw/FLiP-SQL
 * https://github.com/tspannhw/FLiP-IoT
+* https://pulsar.apache.org/docs/en/client-libraries-go/
